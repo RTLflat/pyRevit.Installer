@@ -6,7 +6,9 @@ internal static class Program
 {
     private static void Main()
     {
-        Console.WriteLine("Welcome to the pyRevit Installer!");
+        Console.WriteLine("Welcome to the (Unofficial) pyRevit Installer!");
+        Console.WriteLine();
+        Console.WriteLine("This installer automates the process of installing pyRevit 4 and pyRevit 5 side by side.");
         Console.WriteLine();
         Console.WriteLine("WARNING!");
         Console.WriteLine("Using this installer will remove any existing pyrevit installation located here:");
@@ -22,8 +24,8 @@ internal static class Program
 
         Console.WriteLine("Please choose an option:");
         Console.WriteLine();
-        Console.WriteLine("1. Install both pyRevit 4 and 5");
-        Console.WriteLine("2. Install only pyRevit 5");
+        Console.WriteLine("1. Install both pyRevit 4 (2020-2024) and pyRevit 5 (2025)");
+        Console.WriteLine("2. Install only pyRevit 5 (2020-2025)");
         Console.WriteLine("3. Exit");
         Console.WriteLine();
         Console.Write("Enter your choice (1/2/3) and press enter: ");
